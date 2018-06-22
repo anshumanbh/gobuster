@@ -28,9 +28,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/OJ/gobuster/gobusterdir"
-	"github.com/OJ/gobuster/gobusterdns"
-	"github.com/OJ/gobuster/libgobuster"
+	"github.com/anshumanbh/gobuster/gobusterdir"
+	"github.com/anshumanbh/gobuster/gobusterdns"
+	"github.com/anshumanbh/gobuster/libgobuster"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/OJ/gobuster/libgobuster"
+	"github.com/anshumanbh/gobuster/libgobuster"
 	uuid "github.com/satori/go.uuid"
 )
 
