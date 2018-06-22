@@ -1,0 +1,19 @@
+[[constraint]]
+  name = "github.com/OJ/gobuster"
+  version = "1.4.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/hashicorp/go-multierror"
+
+[[override]]
+  name = "github.com/satori/go.uuid"
+  revision = "master"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+
+[prune]
+  go-tests = true
+  unused-packages = true
