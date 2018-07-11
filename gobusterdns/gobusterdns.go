@@ -7,8 +7,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/anshumanbh/gobuster/libgobuster"
-	uuid "github.com/satori/go.uuid"
+	"github.com/OJ/gobuster/libgobuster"
+	"github.com/google/uuid"
 )
 
 // GobusterDNS is the main type to implement the interface
@@ -17,7 +17,7 @@ type GobusterDNS struct{}
 // Setup is the setup implementation of gobusterdns
 func (d GobusterDNS) Setup(g *libgobuster.Gobuster) error {
 	// Resolve a subdomain sthat probably shouldn't exist
-	guid := uuid.Must(uuid.NewV4())
+	guid := uuid.New()
 	wildcardIps, err := net.LookupHost(fmt.Sprintf("%s.%s", guid, g.Opts.URL))
 	if err == nil {
 		g.IsWildcard = true
