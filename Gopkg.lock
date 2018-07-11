@@ -2,10 +2,16 @@
 
 
 [[projects]]
-  name = "github.com/OJ/gobuster"
-  packages = ["libgobuster"]
-  revision = "34c7157f60013198d862efa43a1024d4617df51d"
-  version = "v1.4.1"
+  name = "github.com/google/uuid"
+  packages = ["."]
+  revision = "064e2069ce9c359c118179501254f67d7d37ba24"
+  version = "0.2"
+
+[[projects]]
+  name = "github.com/h2non/gock"
+  packages = ["."]
+  revision = "4692cba4394f79372bfe85996501ad43db9d82e0"
+  version = "v1.0.9"
 
 [[projects]]
   branch = "master"
@@ -20,11 +26,6 @@
   revision = "b7773ae218740a7be65057fc60b366a49b538a44"
 
 [[projects]]
-  name = "github.com/satori/go.uuid"
-  packages = ["."]
-  revision = "master"
-
-[[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
@@ -37,11 +38,11 @@
     "unix",
     "windows"
   ]
-  revision = "63fc586f45fe72d95d5240a5d5eb95e6503907d3"
+  revision = "1b2967e3c290b7c545b3db0deeda16e9be4f98a2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1d38702501f14e06ebb33206d46bbc997c1c6735961373c3cea3183b113fc40a"
+  inputs-digest = "4dedaeffc608e0b3f4f0f09ac3a3717159ece8d82830ef014abb83111aa6cce6"
   solver-name = "gps-cdcl"
   solver-version = 1
