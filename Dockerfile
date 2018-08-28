@@ -9,6 +9,8 @@ WORKDIR /go/src/github.com/anshumanbh/gobuster
 COPY Gopkg.toml Gopkg.lock ./
 RUN dep ensure -vendor-only -v
 
+COPY gobusterdir/ gobusterdir/
+COPY gobusterdns/ gobusterdns/
 COPY libgobuster/ libgobuster/
 COPY main.go ./
 

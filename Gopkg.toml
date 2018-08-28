@@ -1,14 +1,18 @@
 [[constraint]]
   name = "github.com/OJ/gobuster"
-  version = "1.4.1"
+  version = "2.0.0"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/hashicorp/go-multierror"
+  name = "github.com/google/uuid"
+  version = "1.0.0"
 
-[[override]]
-  name = "github.com/satori/go.uuid"
-  revision = "master"
+[[constraint]]
+  name = "github.com/h2non/gock"
+  version = "1.0.9"
+
+[[constraint]]
+  name = "github.com/hashicorp/go-multierror"
+  version = "1.0.0"
 
 [[constraint]]
   branch = "master"
